@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link 	rel="stylesheet" 
+		href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+</head>
+<body>
+<h3>로그인 화면</h3>
+<hr>
+<!-- http 요청 방식 지정 방법 form 태그에 method 삽입 -->
+<!-- method default 값은 get -->
+<!-- get 방식으로 요청하는 경우 서버로 전송되는 데이터가 주소로 함께 붙어서 전송 -->
+<!-- get 방식으로 요청하면 안되는 경우 -->
+<!-- 보안상의 문제가 되는 경우 -->
+<!-- 데이터 량이 큰 경우 -->
+<form class="form-inline" action="db.jsp" method="post">
+  <label for="email"class="mr-sm-2">아이디</label>
+  <input type="text" class="form-control" placeholder="아이디를 입력하세요" id="email" name="id">
+  <label for="pwd" class= "mr-sm-2">Password:</label>
+  <input type="password" class="form-control mb-2 mr-sm-2" placeholder="Enter password" id="pwd" name="pw">
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+body{
+	background: lime; /*배경색*/
+	color: blue;/*글자색*/
+	text-align: center;
+}
+td {
+	align-content: center;
+}
